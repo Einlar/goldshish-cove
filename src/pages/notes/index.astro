@@ -1,0 +1,15 @@
+---
+import Notes from "@layouts/Notes.astro";
+import getPagination from "@utils/getPagination";
+import { getCollection } from "astro:content";
+
+const notes = await getCollection("notes");
+
+const pagination = getPagination({
+  posts: notes,
+  page: 1,
+  isIndex: true,
+});
+---
+
+<Notes {...pagination} />

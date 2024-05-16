@@ -1,0 +1,43 @@
+---
+import CourseNotes from "@layouts/CourseNotes.astro";
+import getCourses from "@utils/getCourses";
+import getNotesByCourse from "@utils/getNotesByCourse";
+import getPageNumbers from "@utils/getPageNumbers";
+import getPagination from "@utils/getPagination";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+export interface Props {
+  post: CollectionEntry<"notes">;
+  course: string;
+  courseName: string;
+}
+
+export async function getStaticPaths() {
+  const notes = await getCollection("notes");
+  const courses = getCourses(notes);
+
+  return courses.flatMap(({ course, courseName }) => {
+    const notesByCourse = getNotesByCourse(notes, course);
+    const totalPages = getPageNumbers(notesByCourse.length);
+
+    return totalPages.map(page => ({
+      params: { course, page },
+      props: { course, courseName },
+    }));
+  });
+}
+
+const { page } = Astro.params;
+const { course, courseName } = Astro.props;
+
+const notes = await getCollection("notes");
+const notesByCourse = getNotesByCourse(notes, course);
+
+const pagination = getPagination({
+  posts: notesByCourse,
+  page,
+});
+---
+
+<p>Ciao</p>
+<CourseNotes {...pagination} {course} {courseName} />

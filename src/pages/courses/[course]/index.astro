@@ -1,0 +1,31 @@
+---
+import CourseNotes from "@layouts/CourseNotes.astro";
+import getCourses from "@utils/getCourses";
+import getNotesByCourse from "@utils/getNotesByCourse";
+import getPagination from "@utils/getPagination";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const notes = await getCollection("notes");
+  const courses = getCourses(notes);
+
+  return courses.map(({ course, courseName }) => {
+    return {
+      params: { course },
+      props: { course, courseName, notes },
+    };
+  });
+}
+
+const { course, courseName, notes } = Astro.props;
+
+const notesByCourse = getNotesByCourse(notes, course);
+
+const pagination = getPagination({
+  posts: notesByCourse,
+  page: 1,
+  isIndex: true,
+});
+---
+
+<CourseNotes {...pagination} {course} {courseName} />
