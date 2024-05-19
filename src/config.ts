@@ -6,7 +6,7 @@ export const SITE: Site = {
   desc: "The secret lair of the Goldshish",
   title: "Goldshish",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
+  lightAndDarkMode: false,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
