@@ -30,6 +30,8 @@ jobs:
         run: pnpm i --frozen-lockfile
       - name: Build
         run: pnpm run build
+      - name: Copy public/ to dist/
+        run: cp -r public/ dist/
       - uses: a7ul/tar-action@v1.2.0
         with:
           command: c
