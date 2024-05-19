@@ -9,7 +9,7 @@ professor: Samir Suweis
 description: Quantitative Life Science (Samir Suweis, 2020)
 ---
 
-Notes for the course. This version includes all the missing topics from the first.
+Complete notes for the course.
 
 ## Links
 
