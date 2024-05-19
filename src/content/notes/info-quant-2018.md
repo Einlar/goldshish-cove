@@ -4,9 +4,9 @@ authors:
   - Francesco Manzali
   - Mattia Morgavi
 pubDatetime: 2020-10-03T00:00:00
-course: Fisica Teorica
+course: Quantum Information
 year: 2018
-professor: Quantum Information
+professor: Simone Montangero
 description: Appunti per l'A.A. 2018/2019.
 ---
 
