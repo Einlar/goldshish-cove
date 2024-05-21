@@ -1,5 +1,4 @@
 ---
-title: Fisica Teorica (2020)
 authors:
   - Francesco Manzali
   - Mattia Morgavi
@@ -7,7 +6,6 @@ pubDatetime: 2020-10-03T00:00:00
 course: Fisica Teorica
 year: 2018
 professor: Pieralberto Marchetti
-description: Appunti per l'A.A 2019/20.
 ---
 
 Dispense del corso di "Fisica Teorica" (A.A. 2018/19). Vi sono integrate correzioni del prof. Marchetti fino al capitolo sull'oscillatore armonico (incluso), e una nuova sezione sullo _scattering_, riferita all'A.A. 2019/20, a cura di Mattia Morgavi.

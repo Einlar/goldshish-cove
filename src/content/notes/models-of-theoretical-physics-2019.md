@@ -1,12 +1,11 @@
 ---
-title: Models of Theoretical Physics (2019)
 authors:
   - Francesco Manzali
 pubDatetime: 2020-10-14T00:00:00
 course: Models of Theoretical Physics
 year: 2019
 professor: Amos Maritan, Marco Baiesi
-description: (Incomplete) notes for Models of Theoretical Physics (2019)
+description: (Incomplete)
 ---
 
 Full notes for the course. Maritan's part is complete, while Baiesi's part is missing lessons 4 to 7.
