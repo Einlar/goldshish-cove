@@ -14,7 +14,6 @@ const sortedNotes = getSortedNotes(notes);
 
 // List of items to search in
 const searchList = sortedNotes.map(({ data, slug }) => ({
-  title: data.title,
   description: data.description,
   data,
   slug,

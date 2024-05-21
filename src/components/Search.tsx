@@ -4,8 +4,7 @@ import NoteCard from "@components/NoteCard";
 import type { CollectionEntry } from "astro:content";
 
 export type SearchItem = {
-  title: string;
-  description: string;
+  description: string | undefined;
   data: CollectionEntry<"notes">["data"];
   slug: string;
 };
