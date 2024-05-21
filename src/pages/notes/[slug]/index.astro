@@ -3,6 +3,7 @@ import NoteDetails from "@layouts/NoteDetails.astro";
 import Notes from "@layouts/Notes.astro";
 import getPageNumbers from "@utils/getPageNumbers";
 import getPagination from "@utils/getPagination";
+import getSortedNotes from "@utils/getSortedNotes";
 import { getCollection, type CollectionEntry } from "astro:content";
 
 export interface Props {
@@ -28,9 +29,8 @@ const { slug } = Astro.params;
 const { note } = Astro.props;
 
 const notes = await getCollection("notes");
-
 const pagination = getPagination({
-  posts: notes,
+  posts: getSortedNotes(notes),
   page: slug,
 });
 ---
