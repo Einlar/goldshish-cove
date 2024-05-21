@@ -11,4 +11,4 @@ Corso in Fisica Nucleare della Laurea Triennale
 
 ## Links
 
-- [Download (PDF)](/public/notes/Fisica_Nucleare_2014.pdf)
+- [Download (PDF)](/pdf/Fisica_Nucleare_2014.pdf)

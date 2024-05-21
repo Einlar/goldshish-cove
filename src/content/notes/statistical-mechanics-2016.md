@@ -15,4 +15,4 @@ These notes comprehend the material of at least three different courses:
 
 ## Links
 
-- [Download (PDF)](/public/notes/Statistical_Mechanics_2016.pdf)
+- [Download (PDF)](/pdf/Statistical_Mechanics_2016.pdf)

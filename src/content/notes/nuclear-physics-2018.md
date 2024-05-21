@@ -11,4 +11,4 @@ Rather brief handbook for the Nuclear physics course.
 
 ## Links
 
-- [Download (PDF)](/public/notes/Nuclear_Physics_2018.pdf)
+- [Download (PDF)](/pdf/Nuclear_Physics_2018.pdf)

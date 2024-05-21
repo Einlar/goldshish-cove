@@ -11,5 +11,5 @@ Complete notes for the course.
 
 ## Links
 
-- [Download (PDF)](/public/notes/QuantitativeLifeScience_2020.pdf)
+- [Download (PDF)](/pdf/QuantitativeLifeScience_2020.pdf)
 - [Source on Overleaf](https://www.overleaf.com/read/bgrrfrnhvttf)

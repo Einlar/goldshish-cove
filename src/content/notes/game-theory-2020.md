@@ -15,5 +15,5 @@ There is still some missing introduction in the 1/10 lecture. Other than that, t
 
 ## Links
 
-- [Download (PDF)](/public/notes/GameTheory_2020.pdf)
+- [Download (PDF)](/pdf/GameTheory_2020.pdf)
 - [Source (Overleaf)](https://www.overleaf.com/read/stpffwqtvkgw)

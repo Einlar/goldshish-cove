@@ -15,4 +15,4 @@ professor: Carlo Albert, Jeff Byers
 
 ## Links
 
-- [Download (PDF)](/public/notes/InformationTheory_and_Inference_2021.pdf)
+- [Download (PDF)](/pdf/InformationTheory_and_Inference_2021.pdf)

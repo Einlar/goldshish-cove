@@ -12,4 +12,4 @@ Dispense complete del corso di **Introduzione alla Teoria dell'Informazione Quan
 
 ## Links
 
-- [Download (PDF)](/public/notes/InfoQuant_2018.pdf)
+- [Download (PDF)](/pdf/InfoQuant_2018.pdf)

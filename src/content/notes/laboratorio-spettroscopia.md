@@ -14,4 +14,4 @@ Domande per il compitino di spettroscopia.
 
 ## Links
 
-- [Download (PDF)](/public/notes/DomandeSpettroscopiaFinal_2018.pdf)
+- [Download (PDF)](/pdf/DomandeSpettroscopiaFinal_2018.pdf)

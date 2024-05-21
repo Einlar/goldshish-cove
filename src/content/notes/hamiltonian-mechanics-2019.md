@@ -12,5 +12,5 @@ professor: Paolo Rossi
 
 ## Links
 
-- [Download (PDF)](/public/notes/Hamiltonian_2018.pdf)
+- [Download (PDF)](/pdf/Hamiltonian_2018.pdf)
 - [Source (GitHub)](https://github.com/mattecapu/hamiltonian-mechanics)

@@ -14,4 +14,4 @@ Due to the required compression the file has a very poor resolution, contact me 
 
 ## Links
 
-- [Download (PDF)](/public/notes/MoTP_2021.pdf)
+- [Download (PDF)](/pdf/MoTP_2021.pdf)

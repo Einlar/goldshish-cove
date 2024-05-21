@@ -13,5 +13,5 @@ Completion of [Francesco's notes](/notes/models-of-theoretical-physics-2019) fro
 
 ## Links
 
-- [Download (PDF)](/public/notes/MoTP_2019_full.pdf)
+- [Download (PDF)](/pdf/MoTP_2019_full.pdf)
 - [Source (Overleaf)](https://www.overleaf.com/read/pqgcqwpxxrmz)

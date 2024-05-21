@@ -10,4 +10,4 @@ professor: Michele Zorzi
 
 ## Links
 
-- [Download (PDF)](/public/notes/Stochastic_Processes_2020.pdf)
+- [Download (PDF)](/pdf/Stochastic_Processes_2020.pdf)

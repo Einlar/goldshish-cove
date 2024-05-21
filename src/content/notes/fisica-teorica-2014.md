@@ -11,4 +11,4 @@ Appunti per l'A.A. 2014/2015.
 
 ## Links
 
-- [Download (PDF)](/public/notes/MQ_2014.pdf)
+- [Download (PDF)](/pdf/MQ_2014.pdf)

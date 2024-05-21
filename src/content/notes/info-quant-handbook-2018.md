@@ -11,4 +11,4 @@ Reviewed handbook in English for the Quantum Information course, including the f
 
 ## Links
 
-- [Download (PDF)](/public/notes/InfoQuant_Handbook_2018.pdf)
+- [Download (PDF)](/pdf/InfoQuant_Handbook_2018.pdf)

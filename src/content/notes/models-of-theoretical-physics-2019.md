@@ -14,6 +14,6 @@ Sincere thanks to Beatrice Segalini for correcting the .tex, and to all the othe
 
 ## Links
 
-- [Download (PDF)](/public/notes/MoTP_2019.pdf)
+- [Download (PDF)](/pdf/MoTP_2019.pdf)
 - [Source (Overleaf)](https://www.overleaf.com/read/hwzmdmrmmhzn)
-- [Exercises (Maritan)](/public/notes/MoTP_exercises_Maritan_2019.pdf) & [Exercises (Baiesi)](/public/notes/MoTP_exercises_Baiesi_2019.pdf) All the exercises for the course, with detailed solutions. For Maritan's part, the last exercise is missing a part, and the optional exercise is not written. [Source (Overleaf)](https://www.overleaf.com/read/ksqtkbzrhwfy).
+- [Exercises (Maritan)](/pdf/MoTP_exercises_Maritan_2019.pdf) & [Exercises (Baiesi)](/pdf/MoTP_exercises_Baiesi_2019.pdf) All the exercises for the course, with detailed solutions. For Maritan's part, the last exercise is missing a part, and the optional exercise is not written. [Source (Overleaf)](https://www.overleaf.com/read/ksqtkbzrhwfy).

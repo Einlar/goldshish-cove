@@ -13,4 +13,4 @@ The notes are fully integrated with the material provided by the professor in th
 
 ## Links
 
-- [Download (PDF)](/public/notes/Statistical_mechanics_2019.pdf)
+- [Download (PDF)](/pdf/Statistical_mechanics_2019.pdf)

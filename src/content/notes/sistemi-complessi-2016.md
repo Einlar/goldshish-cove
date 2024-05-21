@@ -9,4 +9,4 @@ professor: Attilio Stella
 
 ## Links
 
-- [Download (PDF)](/public/notes/Sistemi_complessi_2016.pdf)
+- [Download (PDF)](/pdf/Sistemi_complessi_2016.pdf)

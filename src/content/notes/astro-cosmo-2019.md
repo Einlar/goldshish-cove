@@ -11,4 +11,4 @@ professor: Sabino Matarrese
 
 ## Links
 
-- [Download (PDF)](/public/notes/astrophysics_cosmology_2019.pdf)
+- [Download (PDF)](/pdf/astrophysics_cosmology_2019.pdf)

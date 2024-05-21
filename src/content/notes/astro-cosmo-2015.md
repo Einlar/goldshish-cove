@@ -11,4 +11,4 @@ Appunti per l'A.A. 2015/16.
 
 ## Links
 
-- [Download (PDF)](/public/notes/Astro_cosmo_2015.pdf)
+- [Download (PDF)](/pdf/Astro_cosmo_2015.pdf)

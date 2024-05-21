@@ -13,4 +13,4 @@ Full but not reviewed neither official very brief notes for the Nanophysics cour
 
 ## Links
 
-- [Download (PDF)](/public/notes/NanoPhysics_2020.pdf)
+- [Download (PDF)](/pdf/NanoPhysics_2020.pdf)

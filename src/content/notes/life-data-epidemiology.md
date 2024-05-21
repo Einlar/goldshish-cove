@@ -10,4 +10,4 @@ professor: Sandro Meloni, Chiara Poletto
 
 ## Links
 
-- [Download (PDF)](/public/notes/Life_Data_Epidemiology_2021.pdf)
+- [Download (PDF)](/pdf/Life_Data_Epidemiology_2021.pdf)

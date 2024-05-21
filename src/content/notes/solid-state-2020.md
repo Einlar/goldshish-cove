@@ -11,4 +11,4 @@ Full but not reviewed neither official notes for the Solid State Physics course.
 
 ## Links
 
-- [Download (PDF)](/public/notes/SolidState_2020.pdf)
+- [Download (PDF)](/pdf/SolidState_2020.pdf)

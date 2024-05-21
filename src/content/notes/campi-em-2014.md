@@ -9,4 +9,4 @@ professor: Stefano Giusto
 
 ## Links
 
-- [Download (PDF)](/public/notes/CampiEM_2014.pdf)
+- [Download (PDF)](/pdf/CampiEM_2014.pdf)

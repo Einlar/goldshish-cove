@@ -9,4 +9,4 @@ professor: Antonio Trovato
 
 ## Links
 
-- [Download (PDF)](/public/notes/Physics_of_complex_systems_2020.pdf)
+- [Download (PDF)](/pdf/Physics_of_complex_systems_2020.pdf)

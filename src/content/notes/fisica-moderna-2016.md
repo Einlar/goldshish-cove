@@ -12,4 +12,4 @@ Dispense (con esercizi svolti) del corso di Fisica Moderna.
 
 ## Links
 
-- [Download (PDF)](/public/notes/Fisica_Moderna_2016.pdf)
+- [Download (PDF)](/pdf/Fisica_Moderna_2016.pdf)

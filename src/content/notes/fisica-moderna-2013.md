@@ -11,4 +11,4 @@ Appunti per l'A.A. 2013/2014
 
 ## Links
 
-- [Download (PDF)](/public/notes/Fisica_Moderna_2013.pdf)
+- [Download (PDF)](/pdf/Fisica_Moderna_2013.pdf)

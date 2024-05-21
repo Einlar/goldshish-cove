@@ -11,4 +11,4 @@ Appunti per l'A.A. 2021/22.
 
 ## Links
 
-- [Download (PDF)](/public/notes/MQ_2022.pdf)
+- [Download (PDF)](/pdf/MQ_2022.pdf)

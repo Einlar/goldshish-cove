@@ -13,5 +13,5 @@ Notes for the course. This version includes all the missing topics from the firs
 
 ## Links
 
-- [Download (PDF)](/public/notes/DeepLearning_2020.pdf)
+- [Download (PDF)](/pdf/DeepLearning_2020.pdf)
 - [Source on Overleaf](https://www.overleaf.com/read/fngnrsxhrhsg)

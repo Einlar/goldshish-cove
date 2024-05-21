@@ -10,5 +10,5 @@ professor: Lorenzo Fortunato, Franco Simonetto
 
 ## Links
 
-- [Fisica Nucleare (PDF)](/public/notes/Fisica_Nucleare_2020.pdf)
-- [Fisica Subnucleare (PDF)](/public/notes/Fisica_Subnucleare_2020.pdf)
+- [Fisica Nucleare (PDF)](/pdf/Fisica_Nucleare_2020.pdf)
+- [Fisica Subnucleare (PDF)](/pdf/Fisica_Subnucleare_2020.pdf)
