@@ -13,7 +13,8 @@ export default function NoteCard({ href, frontmatter }: Props) {
 
   const headerProps = {
     style: { viewTransitionName: slugifyStr(title) },
-    className: "text-lg font-medium decoration-dashed hover:underline",
+    className:
+      "text-lg inline-block font-medium decoration-dashed hover:underline",
   };
 
   const getFormattedName = (fullName: string) => {
@@ -24,8 +25,11 @@ export default function NoteCard({ href, frontmatter }: Props) {
 
   return (
     <li className="my-6 transform rounded-lg pb-1 pt-1">
-      <a href={href} className="mb-1 block">
-        <h2 className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0">
+      <a
+        href={href}
+        className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
+      >
+        <h2 {...headerProps}>
           {course} ({year})
         </h2>
         <span className="ml-1 text-sm text-gray-400">
