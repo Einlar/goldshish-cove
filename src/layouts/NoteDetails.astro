@@ -14,9 +14,11 @@ export interface Props {
 
 const { note } = Astro.props;
 
-const { title, description, pubDatetime, modDatetime } = note.data;
-
 const { Content } = await note.render();
+
+const { course, year, pubDatetime, modDatetime } = note.data;
+const title = `${course} (${year})`;
+const description = note.data.description ?? "";
 
 const layoutProps = {
   title: `${title} | ${SITE.title}`,

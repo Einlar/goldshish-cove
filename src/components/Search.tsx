@@ -1,6 +1,6 @@
 import Fuse from "fuse.js";
 import { useEffect, useRef, useState, useMemo } from "react";
-import Card from "@components/Card";
+import NoteCard from "@components/NoteCard";
 import type { CollectionEntry } from "astro:content";
 
 export type SearchItem = {
@@ -33,7 +33,13 @@ export default function SearchBar({ searchList }: Props) {
   const fuse = useMemo(
     () =>
       new Fuse(searchList, {
-        keys: ["title", "description"],
+        keys: [
+          "title",
+          "data.course",
+          "data.year",
+          "data.professor",
+          "data.authors",
+        ],
         includeMatches: true,
         minMatchCharLength: 2,
         threshold: 0.5,
@@ -111,7 +117,7 @@ export default function SearchBar({ searchList }: Props) {
       <ul>
         {searchResults &&
           searchResults.map(({ item, refIndex }) => (
-            <Card
+            <NoteCard
               href={`/notes/${item.slug}/`}
               frontmatter={item.data}
               key={`${refIndex}-${item.slug}`}

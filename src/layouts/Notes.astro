@@ -5,7 +5,7 @@ import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Pagination from "@components/Pagination.astro";
-import Card from "@components/Card";
+import NoteCard from "@components/NoteCard";
 import { SITE } from "@config";
 
 export interface Props {
@@ -23,7 +23,7 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
     <ul>
       {
         paginatedPosts.map(({ data, slug }) => (
-          <Card href={`/notes/${slug}/`} frontmatter={data} />
+          <NoteCard href={`/notes/${slug}/`} frontmatter={data} />
         ))
       }
     </ul>
