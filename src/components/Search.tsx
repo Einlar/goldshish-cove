@@ -34,7 +34,7 @@ export default function SearchBar({ searchList }: Props) {
     () =>
       new Fuse(searchList, {
         keys: [
-          "title",
+          "description",
           "data.course",
           "data.year",
           "data.professor",
