@@ -3,34 +3,18 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Goldshish is a collection of notes and a few posts from me - a guy named Francesco who lives in Italy, has studied Physics at the University of Padova and now works as a data scientist / software developer.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+If you are a student like I was, I hope you find here a bit of the knowledge you seek, and that these resources will make your journey a tiny bit easier. Surely, they were helpful for me, and that's all the reason there is to share.
 
 ## Tech Stack
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+I'm using [Astro.js](https://astro.build/) with the excellent theme [astro-paper](https://github.com/satnaing/astro-paper) by satnaing (I still suck at writing CSS).
 
-## Features
+Everything you see here is built to static files (blazingly FAST), which are served by a [Docker](https://docs.docker.com/get-docker/) container via [CapRover](https://caprover.com/) on a VPS on [Oracle Cloud](https://www.oracle.com/it/cloud/free/).
 
-Here are certain features of this site.
+_(I know, I could just use something like Github Pages/Vercel/Netlify for hosting - but a VPS gives me the flexibility to host anything, so if I need a database in the future it will be easy to add. Also it's free, and I can move out whenever I want since it's just a bunch of containers)._
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+## Contact
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+Feel free to drop me a mail at [manzali.francesco97@gmail.com](mailto:manzali.francesco97@gmail.com).
