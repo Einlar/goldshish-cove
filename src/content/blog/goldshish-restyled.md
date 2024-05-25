@@ -17,3 +17,7 @@ So, I finally took the chance when I discovered that [Astro.js](https://astro.bu
 - I can finally update the content by just writing Markdown and pushing it to git! No more need to mess up with databases and stuff. This is particularly nice because I have _this terrible idea_ of starting to write blog posts about stuff I like (so probably it'll be Machine Learning & stuff). Well, I still don't know if I actually start writing posts, but surely updating this website will make it easier, right?
 
 The main caveat is that, at the moment, there is no way for users to directly upload notes, or even just add comments. It's something I would like to fix _soonish_ - but for now you can just drop me a [mail](mailto:manzali.francesco97@gmail.com) if you want to upload something, or you notice that something is wrong.
+
+## Update 2024-05-25
+
+Now comments are enabled on all notes, thanks to [giscus](https://giscus.app)! You will need a GitHub account to post here.

@@ -2,6 +2,7 @@
 import Datetime from "@components/Datetime";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
+import NoteComments from "@components/NoteComments.astro";
 import ShareLinks from "@components/ShareLinks.astro";
 import { SITE } from "@config";
 import Layout from "@layouts/Layout.astro";
@@ -77,6 +78,8 @@ const layoutProps = {
 
       <ShareLinks />
     </div>
+
+    <NoteComments />
   </main>
   <Footer />
 </Layout>
