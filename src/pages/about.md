@@ -17,4 +17,4 @@ _(I know, I could just use something like Github Pages/Vercel/Netlify for hostin
 
 ## Contact
 
-Feel free to drop me a mail at [manzali.francesco97@gmail.com](mailto:manzali.francesco97@gmail.com).
+Feel free to drop me a mail at [notes@goldshish.it](mailto:notes@goldshish.it).

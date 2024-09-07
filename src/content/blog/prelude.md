@@ -16,6 +16,6 @@ This website, **goldshish**, is the third iteration of my contribution. The firs
 
 Here you can find all the notes I gathered over the years - some of them I wrote, some were shared by fellow colleagues, and some were the product of collaboration.
 
-If you want to host a note to this website, just send it as PDF (or `.tex`) to [my mail](mailto:manzali.francesco97@gmail.com), and I will promptly update it.
+If you want to host a note to this website, just send it as PDF (or `.tex`) to [my mail](mailto:notes@goldshish.it), and I will promptly update it.
 
 So see you soon, and thanks for all the _fish_.
