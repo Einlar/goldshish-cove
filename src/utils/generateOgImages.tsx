@@ -42,18 +42,24 @@ const options: SatoriOptions = {
   ],
 };
 
-function svgBufferToPngBuffer(svg: string) {
+function svgBufferToPngBuffer(svg: string): ArrayBuffer {
   const resvg = new Resvg(svg);
   const pngData = resvg.render();
-  return pngData.asPng();
+  const pngBuffer = pngData.asPng();
+  return pngBuffer.buffer.slice(
+    pngBuffer.byteOffset,
+    pngBuffer.byteOffset + pngBuffer.byteLength
+  ) as ArrayBuffer;
 }
 
-export async function generateOgImageForPost(post: CollectionEntry<"blog">) {
+export async function generateOgImageForPost(
+  post: CollectionEntry<"blog">
+): Promise<ArrayBuffer> {
   const svg = await satori(postOgImage(post), options);
   return svgBufferToPngBuffer(svg);
 }
 
-export async function generateOgImageForSite() {
+export async function generateOgImageForSite(): Promise<ArrayBuffer> {
   const svg = await satori(siteOgImage(), options);
   return svgBufferToPngBuffer(svg);
 }
